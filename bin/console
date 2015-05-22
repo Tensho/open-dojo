@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH.unshift File.expand_path('../../spec', __FILE__)
+
+require 'bundler/setup'
+Bundler.require(:default)
+
+require 'rspec'
+require 'spec_helper'
+
+require "irb"
+IRB.start
